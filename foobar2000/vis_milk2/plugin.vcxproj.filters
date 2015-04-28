@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="My Plugin Source Files">
+      <UniqueIdentifier>{55b94745-7f8a-4e5e-84ac-717a63a4808e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="My Plugin Header Files">
+      <UniqueIdentifier>{b1f6eb3b-1f44-4f7f-84e9-cc4b02386876}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Framework Files %28do not edit%29">
+      <UniqueIdentifier>{050cb8a7-763d-4c03-959f-fd63e09f4662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ns-eel">
+      <UniqueIdentifier>{a72bf290-4429-4e9b-a7a3-d63a6724afad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="menu.cpp">
+      <Filter>My Plugin Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="milkdropfs.cpp">
+      <Filter>My Plugin Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.cpp">
+      <Filter>My Plugin Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="state.cpp">
+      <Filter>My Plugin Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="support.cpp">
+      <Filter>My Plugin Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texmgr.cpp">
+      <Filter>My Plugin Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textmgr.cpp">
+      <Filter>My Plugin Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="config2.cpp">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="desktop_mode.cpp">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="dxcontext.cpp">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="fft.cpp">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginshell.cpp">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="vis.cpp">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-eel2\nseel-caltab.c">
+      <Filter>ns-eel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-eel2\nseel-cfunc.c">
+      <Filter>ns-eel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-eel2\nseel-compiler.c">
+      <Filter>ns-eel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-eel2\nseel-eval.c">
+      <Filter>ns-eel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-eel2\nseel-lextab.c">
+      <Filter>ns-eel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-eel2\nseel-ram.c">
+      <Filter>ns-eel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-eel2\nseel-yylex.c">
+      <Filter>ns-eel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="plugin_icon.ico">
+      <Filter>My Plugin Source Files</Filter>
+    </Image>
+    <Image Include="temp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api.h">
+      <Filter>My Plugin Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>My Plugin Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md_defines.h">
+      <Filter>My Plugin Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>My Plugin Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>My Plugin Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>My Plugin Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="support.h">
+      <Filter>My Plugin Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texmgr.h">
+      <Filter>My Plugin Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textmgr.h">
+      <Filter>My Plugin Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nu\AutoCharFn.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="dxcontext.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="fft.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="gstring.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="icon_t.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginshell.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="shell_defines.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="vis.h">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="plugin.rc">
+      <Filter>Framework Files %28do not edit%29</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DOCUMENTATION.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="milkdrop.nsi" />
+    <None Include="text1.bin" />
+  </ItemGroup>
+</Project>
